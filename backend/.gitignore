@@ -1,0 +1,7 @@
+# Create: backend/.gitignore
+
+node_modules/
+.env
+*.log
+dist/
+build/
