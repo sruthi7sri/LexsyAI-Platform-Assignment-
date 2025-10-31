@@ -11,19 +11,6 @@
 
 ---
 
-## 📸 Demo
-
-### Dashboard
-![Dashboard with workflow templates and dark mode support](https://via.placeholder.com/800x450/1e293b/ffffff?text=Dashboard+View)
-
-### AI Document Analysis
-![AI extracting fields with confidence scores](https://via.placeholder.com/800x450/1e293b/ffffff?text=AI+Field+Extraction)
-
-### Conversational Completion
-![Chat interface for filling document fields](https://via.placeholder.com/800x450/1e293b/ffffff?text=AI+Chat+Interface)
-
----
-
 ## ✨ Key Features
 
 ### 🤖 AI-Powered Intelligence
@@ -109,62 +96,6 @@
 │ Database│ │ API  │  │DocuSign  │
 └─────────┘ └──────┘  └──────────┘
 ```
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 18+
-- PostgreSQL 15+
-- OpenAI API Key ([Get one here](https://platform.openai.com/api-keys))
-
-### Installation
-
-**1. Clone the repository**
-```bash
-git clone https://github.com/YOUR-USERNAME/LexsyAI-Platform-Assignment.git
-cd LexsyAI-Platform-Assignment
-```
-
-**2. Backend Setup**
-```bash
-cd backend
-npm install
-
-# Create .env file
-cp .env.example .env
-# Edit .env with your credentials
-
-# Initialize database
-psql -U postgres -d lexai -f ../database/schema.sql
-
-# Start backend
-npm run dev
-# Server running on http://localhost:3001
-```
-
-**3. Frontend Setup**
-```bash
-cd frontend
-npm install
-
-# Create .env file
-cp .env.example .env
-# Add: REACT_APP_API_URL=http://localhost:3001/api
-
-# Start frontend
-npm start
-# App running on http://localhost:3000
-```
-
-### Docker Setup
-
-```bash
-docker-compose up -d
-```
-
-Visit `http://localhost:3000`
 
 ---
 
@@ -336,32 +267,6 @@ Get AI assistance for field completion.
    - Answer conversational prompts
    - Download your completed document
 
-### Sample Test Document
-
-Create a file called `test-agreement.docx`:
-
-```
-EMPLOYMENT AGREEMENT
-
-This agreement is made between [Company Name] and [Employee Name].
-
-Position: [Job Title]
-Start Date: [Start Date]
-Salary: [Annual Salary]
-Email: [Email Address]
-
-The employee will work at [Company Address].
-
-Signed: ___________
-```
-
-Expected Results:
-- ✅ Extracts 6 fields
-- ✅ Suggests values for each
-- ✅ Validates email format
-- ✅ Validates date format
-- ✅ Generates completed document
-
 ---
 
 ## 🎯 Project Highlights for Lexsy
@@ -459,7 +364,7 @@ Expected Results:
 
 ---
 
-## 🛣️ Roadmap
+## 🛣️ Roadmap and Future Scopes
 
 ### Phase 1: MVP ✅ (Current)
 - [x] Document upload and parsing
@@ -494,7 +399,7 @@ Expected Results:
 
 ## 🤝 Contributing
 
-This is a portfolio project, but feedback and suggestions are welcome!
+This is a portfolio project, made for Lexsy.ai but feedback and suggestions are welcome!
 
 ### Development Workflow
 
@@ -579,10 +484,10 @@ REACT_APP_STRIPE_PUBLISHABLE_KEY=pk_test_your-stripe-publishable-key
 
 ## 📞 Contact & Links
 
-**Developer:** Your Name  
-**Email:** your.email@example.com  
-**LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-**Portfolio:** [yourportfolio.com](https://yourportfolio.com)
+**Developer:** Sruthisri Venkateswaran  
+**Email:** sruthi7sri@gmail.com 
+**LinkedIn:** [linkedin.com/in/sruthisri](https://www.linkedin.com/in/sruthisri/)  
+**Portfolio:** [https://sruthi7sri.github.io/](https://sruthi7sri.github.io/)
 
 **Project Links:**
 - 🌐 Live Demo: [https://lexsy-ai-platform-assignment.vercel.app](https://lexsy-ai-platform-assignment.vercel.app)
