@@ -844,7 +844,7 @@ const App = () => {
             <h3 className={`text-xl font-bold ${textPrimary} mb-4`}>Integration Documentation</h3>
             <div className="grid md:grid-cols-3 gap-4">
               <a
-                href="https://github.com/yourusername/lexai-platform"
+                href="https://github.com/sruthi7sri/LexsyAI-Platform-Assignment"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`flex items-center gap-3 p-4 rounded-lg transition-all ${
