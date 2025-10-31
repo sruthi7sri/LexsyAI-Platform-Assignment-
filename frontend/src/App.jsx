@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Upload, MessageSquare, Download, FileText, Send, Sparkles, Building2, Users, CheckCircle2, Clock, Zap, ArrowRight, Moon, Sun, Brain, Shield, Code, Github, ExternalLink, Key, Mail, CreditCard, FileSignature } from 'lucide-react';
 import * as mammoth from 'mammoth';
 
-const LegalAutomationPlatform = () => {
+const App = () => {
   const [darkMode, setDarkMode] = useState(true);
   const [view, setView] = useState('dashboard');
   const [workflows, setWorkflows] = useState([]);
@@ -1109,4 +1109,4 @@ const LegalAutomationPlatform = () => {
   );
 };
 
-export default LegalAutomationPlatform;
+export default App;
